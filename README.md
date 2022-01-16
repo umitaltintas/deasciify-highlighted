@@ -2,9 +2,15 @@ deasciify-highlighted is a  Python script for deasciifying text to Turkish and c
 
 ## Dependencies
 * [turkish-deasciifier](https://github.com/emres/turkish-deasciifier)
-  * pip install git+https://github.com/emres/turkish-deasciifier.git
+  
+    ```sh 
+   pip install git+https://github.com/emres/turkish-deasciifier.git
+   ```
 * [pyperclip](https://github.com/asweigart/pyperclip)
-  * pip3 install pyperclip
+  
+   ```sh 
+   pip3 install pyperclip
+   ```
 * [xclip](https://github.com/astrand/xclip) or [xsel](https://github.com/kfish/xsel)
 
 ## Installation
