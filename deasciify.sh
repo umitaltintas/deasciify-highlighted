@@ -14,12 +14,20 @@
 import os
 from turkish.deasciifier import Deasciifier
 import pyperclip as pc
+from pynput.keyboard import Key, Controller
+
 
 def paste(x):
     pc.copy(x)
-    a = pc.paste()        
-       
+    a = pc.paste()    
+        
+keyboard = Controller()
 selected_text = os.popen('xsel').read()
 deasciifier = Deasciifier(selected_text)
 deasciified_turkish_txt = deasciifier.convert_to_turkish()
 paste(deasciified_turkish_txt)
+keyboard.press(Key.ctrl)
+keyboard.press('v')
+keyboard.release('v')
+keyboard.release(Key.ctrl)
+
