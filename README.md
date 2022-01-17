@@ -16,10 +16,13 @@ deasciify-highlighted is a  Python script for deasciifying text to Turkish and c
 ## Installation
 ```sh
 git clone https://github.com/umitaltintas/deasciify-highlighted
-chmod +x deasciify
+cd deasciify-highlighted
+chmod +x install.sh
+./install.sh
+chmod +x deasciify.sh
 ```
 ## Example Usage
-1. Add a shortcut to the deasciify
+1. Add a shortcut to the deasciify # probably you need to add this file to the your bin directory
 2. Select a text
 3. Run shortcut
 4. Paste the clipboard
