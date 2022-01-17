@@ -18,7 +18,7 @@ deasciify-highlighted is a  Python script for deasciifying text to Turkish and c
 git clone https://github.com/umitaltintas/deasciify-highlighted
 cd deasciify-highlighted
 chmod +x install.sh
-./install.sh
+./setup.sh
 chmod +x deasciify.sh
 ```
 ## Example Usage
