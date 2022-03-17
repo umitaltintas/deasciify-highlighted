@@ -4,7 +4,7 @@ import sys
 import subprocess
 import pkg_resources
 
-required = {'turkish-deasciifier', 'pyperclip','pynput'}
+required = {'git+https://github.com/emres/turkish-deasciifier.git', 'pyperclip','pynput'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
 missing = required - installed
 
